@@ -156,7 +156,7 @@ def get_balance():
 
 def speak_text(text):
     tts_url = "https://api.deepgram.com/v1/speak?model=aura-asteria-en"  # Ensure this is the correct TTS endpoint
-    api_key = "237332f30e5ef1eb5bcb6ce247943209c2451bbe"  # Ensure this is your valid API key
+    api_key = "DEEPGRAM-API-KEY"  # Ensure this is your valid API key
 
     headers = {
         'Authorization': f'Token {api_key}',
