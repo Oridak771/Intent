@@ -1,0 +1,134 @@
+:root {
+  --primary-light: #8abdff;
+  --primary: #6d5dfc;
+  --primary-dark: #5b0eeb;
+  --white: #FFFFFF;
+  --greyLight-1: #E4EBF5;
+  --greyLight-2: #c8d0e7;
+  --greyLight-3: #bec8e4;
+  --greyDark: #9baacf;
+}
+
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  overflow-y: scroll;
+  background: var(--greyLight-1);
+}
+
+@media screen and (min-width: 900px) {
+  html {
+    font-size: 75%;
+  }
+}
+
+body, .components {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+}
+
+.components {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.circle {
+  width: 20rem;  /* Adjusted size */
+  height: 20rem; /* Adjusted size */
+  border-radius: 50%; /* Changed to 50% to make it circular */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative; /* Added for better control of inner elements */
+}
+
+.circle__btn {
+  width: 15rem; /* Adjusted size */
+  height: 15rem; /* Adjusted size */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  font-size: 6rem; /* Adjusted size */
+  color: var(--primary);
+  z-index: 300;
+  background: var(--greyLight-1);
+  box-shadow: 0.3rem 0.3rem 0.6rem var(--greyLight-2), -0.2rem -0.2rem 0.5rem var(--white);
+  cursor: pointer;
+  position: relative;
+}
+.circle__btn.shadow {
+  box-shadow: inset 0.2rem 0.2rem 0.5rem var(--greyLight-2), inset -0.2rem -0.2rem 0.5rem var(--white);
+}
+
+.circle__btn .play {
+  position: absolute;
+  opacity: 0;
+  transition: all 0.2s linear;
+}
+
+.circle__btn .play:not(.visibility) {
+  display: none;
+}
+
+.circle__btn .pause {
+  position: absolute;
+  opacity: 1;
+  transition: all 0.2s linear;
+}
+
+.circle__btn .pause.visibility {
+  opacity: 0;
+}
+
+.circle__back-1, .circle__back-2 {
+  position: absolute; /* Adjusted position for better control */
+  width: 18rem; /* Adjusted size */
+  height: 18rem; /* Adjusted size */
+  border-radius: 50%;
+  filter: blur(1px);
+  z-index: 100;
+}
+
+.circle__back-1 {
+  box-shadow: 0.4rem 0.4rem 0.8rem var(--greyLight-2), -0.4rem -0.4rem 0.8rem var(--white);
+  background: linear-gradient(to bottom right, var(--greyLight-2) 0%, var(--white) 100%);
+  animation: waves 4s linear infinite;
+}
+
+.circle__back-1.paused {
+  animation-play-state: paused;
+}
+
+.circle__back-2 {
+  box-shadow: 0.4rem 0.4rem 0.8rem var(--greyLight-2), -0.4rem -0.4rem 0.8rem var(--white);
+  animation: waves 4s linear 2s infinite;
+}
+
+.circle__back-2.paused {
+  animation-play-state: paused;
+}
+
+@keyframes waves {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    transform: scale(2);
+    opacity: 0;
+  }
+}

@@ -1,0 +1,151 @@
+text,intent
+How much money is in my savings account?,check_balance
+What's my current savings account balance?,check_balance
+Can you tell me how much money I have in savings?,check_balance
+I'd like to know my savings account balance.,check_balance
+Show me my savings account balance.,check_balance
+What is the available balance in my savings account?,check_balance
+Could you please tell me the current balance in my bank account?,check_balance
+What's the balance in my account right now?,check_balance
+I'm curious about my account balance. Can you provide that information?,check_balance
+How much money do I have in my bank account at the moment?,check_balance
+Can you inform me of the available funds in my account?,check_balance
+What's the available balance in my bank account as of now?,check_balance
+Could you give me an update on the balance in my account?,check_balance
+"I'd like to know the current available balance in my bank account, please.",check_balance
+Can you check and tell me how much money is in my account?,check_balance
+What's my account balance looking like today?,check_balance
+I'm interested in knowing my account balance. Can you help me with that?,check_balance
+Could you provide me with the available funds in my bank account?,check_balance
+How much money do I have available in my account?,check_balance
+What's the current balance in my bank account?,check_balance
+Can you give me the balance of my account?,check_balance
+I'd appreciate it if you could tell me my account balance.,check_balance
+What's the balance in my account at the moment?,check_balance
+I'd like to inquire about the balance in my bank account.,check_balance
+Could you please check and let me know how much money I have in my account?,check_balance
+What's my available balance right now?,check_balance
+Transfer $500 to my friend's account,wire_transfer
+"Wire transfer $1,000 to Ashley.",wire_transfer
+Transfer $500 to John Smith's account.,wire_transfer
+I want to transfer money to Sarah Jones.,wire_transfer
+Can you send $200 to my friend David?,wire_transfer
+"Wire transfer $2,500 to John.",wire_transfer
+Transfer $800 via wire to Emily.,wire_transfer
+"Send $1,200 through wire transfer to Michael.",wire_transfer
+"Please arrange a wire transfer of $1,500 to Sarah.",wire_transfer
+Initiate a wire transfer of $900 to David.,wire_transfer
+"Wire $1,300 to Jessica's account, please.",wire_transfer
+Transfer $700 to Thomas via wire.,wire_transfer
+"Send a wire transfer of $1,600 to Jennifer.",wire_transfer
+"Wire transfer $1,100 to Olivia, please.",wire_transfer
+"Transfer $1,400 to Ethan via wire.",wire_transfer
+"Please arrange a wire transfer of $1,800 to Sophia.",wire_transfer
+"Initiate a wire transfer of $1,000 to Rebecca.",wire_transfer
+"Wire $1,700 to Matthew's account, please.",wire_transfer
+"Transfer $1,300 via wire to Alexander.",wire_transfer
+"Send $1,900 through wire transfer to Madison.",wire_transfer
+"Please arrange a wire transfer of $2,200 to Jacob.",wire_transfer
+"Wire transfer $1,500 to Emma, please.",wire_transfer
+"Transfer $1,600 to Benjamin via wire.",wire_transfer
+"Initiate a wire transfer of $1,200 to Victoria.",wire_transfer
+"Wire $2,000 to William's account, please.",wire_transfer
+Can I withdraw cash from my checking account?,cash_withdrawal
+Is it possible to take out cash from my checking account?,cash_withdrawal
+Can I get cash out of my checking?,cash_withdrawal
+I'd like to know if I can withdraw money from my checking account.,cash_withdrawal
+Am I able to make a withdrawal from checking?,cash_withdrawal
+Am I able to withdraw cash from my checking account?,cash_withdrawal
+Is it possible for me to take out cash from my checking account?,cash_withdrawal
+Can I make a cash withdrawal from my checking account?,cash_withdrawal
+May I withdraw funds in cash from my checking account?,cash_withdrawal
+Is cash withdrawal from my checking account permitted?,cash_withdrawal
+Am I allowed to get cash out from my checking account?,cash_withdrawal
+Is it okay for me to take cash out of my checking account?,cash_withdrawal
+Can I access cash from my checking account?,cash_withdrawal
+Is cash withdrawal an option for my checking account?,cash_withdrawal
+Am I eligible to withdraw cash from my checking account?,cash_withdrawal
+Is it permitted for me to make a cash withdrawal from my checking account?,cash_withdrawal
+Can I get cash from my checking account?,cash_withdrawal
+Is it possible to withdraw cash using my checking account?,cash_withdrawal
+May I take cash out of my checking account?,cash_withdrawal
+Is cash withdrawal available with my checking account?,cash_withdrawal
+Can I obtain cash from my checking account?,cash_withdrawal
+Am I allowed to withdraw money in cash from my checking account?,cash_withdrawal
+Can I make a cash withdrawal using my checking account?,cash_withdrawal
+May I retrieve cash from my checking account?,cash_withdrawal
+Is it within the rules to withdraw cash from my checking account?,cash_withdrawal
+Show recent transactions for my credit card,transaction_history
+What are my recent credit card transactions?,transaction_history
+Can I see my latest credit card activity?,transaction_history
+Show me my credit card statement.,transaction_history
+I'd like to review my recent credit card purchases.,transaction_history
+What have I spent on my credit card recently?,transaction_history
+"Display recent transactions for my credit card, please.",transaction_history
+Could you show me the recent activity on my credit card?,transaction_history
+I'd like to see the latest transactions on my credit card.,transaction_history
+Can you provide me with a list of recent transactions on my credit card?,transaction_history
+Please show me the recent purchases made with my credit card.,transaction_history
+I'm interested in viewing the recent transactions on my credit card.,transaction_history
+Could you pull up the recent activity for my credit card?,transaction_history
+"Show me the recent charges on my credit card, please.",transaction_history
+I'd like to review the recent transactions on my credit card.,transaction_history
+Can you display the recent transactions for my credit card account?,transaction_history
+Please provide me with a summary of recent transactions on my credit card.,transaction_history
+Show me the most recent transactions for my credit card.,transaction_history
+I want to check the recent activity on my credit card.,transaction_history
+Could you please show me the recent transactions on my credit card statement?,transaction_history
+I'm curious about the recent transactions on my credit card. Can you show me?,transaction_history
+Display the recent charges and purchases on my credit card.,transaction_history
+I'd like to see a list of the most recent transactions on my credit card.,transaction_history
+Can you pull up the recent transactions associated with my credit card?,transaction_history
+Please show me the recent transaction history for my credit card.,transaction_history
+I need to review the recent transactions made using my credit card.,transaction_history
+Update my contact information on file,update_info
+I need to change my contact information.,update_info
+Can I update my profile?,update_info
+"I have a new phone number, can you update it?",update_info
+There's a mistake in my address. Can you fix it?,update_info
+Could you please modify my contact details on record?,update_info
+"I'd like to update my contact information, please.",update_info
+Can you assist me in updating my profile information?,update_info
+My contact details have changed. How can I update them?,update_info
+I need to make changes to my contact information on file.,update_info
+Could you help me with updating my profile?,update_info
+I want to update my contact information in the system.,update_info
+There have been changes to my contact info. Can you update it?,update_info
+I'd like to edit my contact details. Is that possible?,update_info
+I need to adjust my contact information. How can I do that?,update_info
+Please update my contact information with my new address.,update_info
+Is it possible to modify my contact information?,update_info
+I need to make some changes to my profile. Can you assist?,update_info
+My contact information needs to be updated. Can you help with that?,update_info
+Could you update my profile with my new phone number?,update_info
+I want to ensure my contact details are up to date. How do I do that?,update_info
+There's been a change in my address. Can you update it in my profile?,update_info
+I need to correct some details in my profile. How can I proceed?,update_info
+I'd like to update my profile with my new contact information.,update_info
+Could you please make the necessary changes to my contact details?,update_info
+What is the current interest rate on my savings account?,check_interest_rate
+What is the interest rate for my savings account?,check_interest_rate
+Can you tell me about my savings account interest rate?,check_interest_rate
+Could you provide the current interest rate for my savings account?,check_interest_rate
+"I'd like to know the interest rate for my savings account, please.",check_interest_rate
+Can you inform me about the interest rate on my savings account?,check_interest_rate
+What's the current interest rate for my savings account?,check_interest_rate
+I'm curious about the interest rate for my savings account. Can you check?,check_interest_rate
+Please provide information on the interest rate for my savings account.,check_interest_rate
+Could you tell me the current interest rate on my savings account?,check_interest_rate
+What is the interest rate for my savings account at the moment?,check_interest_rate
+Can you give me details about the interest rate on my savings account?,check_interest_rate
+I'd like to inquire about the interest rate on my savings account.,check_interest_rate
+Could you please check the interest rate for my savings account?,check_interest_rate
+I'm interested in knowing the interest rate on my savings account.,check_interest_rate
+What's the interest rate on my savings account currently?,check_interest_rate
+Can you provide me with the interest rate for my savings account?,check_interest_rate
+Could you inform me of the interest rate on my savings account?,check_interest_rate
+Please check and tell me the interest rate for my savings account.,check_interest_rate
+I want to know the interest rate for my savings account. Can you assist?,check_interest_rate
+What's the current interest rate on my savings account?,check_interest_rate
+Could you provide details about the interest rate for my savings account?,check_interest_rate
+Can you give me information on the interest rate for my savings account?,check_interest_rate
