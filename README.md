@@ -1,4 +1,4 @@
-# Voice-Activated Service Request System
+# Voice-Driven Intent Recognition for Financial Services
 
 ## Overview
 
